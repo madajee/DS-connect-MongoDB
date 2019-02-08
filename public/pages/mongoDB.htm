@@ -1,0 +1,18 @@
+<p><strong>Connect with MongoDB</strong></p>
+
+<div class="form-group">
+    <label class="col-form-label text-primary">Find user with a userID</label>
+    <input type="text" ng-model="uname" class="form-control"/></br>
+    <button class="btn btn-default btn-primary" ng-click="getuser(uname)">Find User</button>
+</div>
+
+<div ng-repeat="user in response">
+    <div class="row">
+        <div class="col-md-12">
+            <p>{{ user.email }}</p>
+        </div>
+    </div> 
+</div>
+
+<!---{{ response  }}-->
+
