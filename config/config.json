@@ -1,5 +1,6 @@
 {
     "uname": "test",
     "pwd": "test",
-    "dburl": "test"
+    "dburl": "test",
+    "DATABASE_URL_PAAS": "mongodb+srv://uname:pwd@dburl"
 }
